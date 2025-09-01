@@ -7,6 +7,6 @@ spec:
   ports:
     - nodePort: 32000  # Port exposed outside the cluster
       port: 9000       # Internal service port
-      targetPort: 8080 # Pod port
+      targetPort: 5678 # Pod port
   selector:
     app: myapp
