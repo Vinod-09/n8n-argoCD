@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: aslamdevops/hiring-app:13
+        image: mekumar/n8n:1
         ports:
         - containerPort: 8080
