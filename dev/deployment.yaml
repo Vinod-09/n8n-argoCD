@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mekumar/n8n:1
+        image: mekumar/n8n:6
         ports:
         - containerPort: 8080
