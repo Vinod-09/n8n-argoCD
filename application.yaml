@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/alsamdevops/hiring-argo-cicd.git
+    repoURL: https://github.com/Vinod-09/n8n-argoCD.git
     targetRevision: HEAD
     path: dev
   destination: 
