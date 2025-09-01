@@ -5,8 +5,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - nodePort: 32000
-      port: 9000
-      targetPort: 8080
+    - nodePort: 32000  # Port exposed outside the cluster
+      port: 9000       # Internal service port
+      targetPort: 8080 # Pod port
   selector:
     app: myapp
