@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment              
 metadata:                     
   name: myapp                 
-spec:                         # 0 spaces
-  selector:                    # 2 spaces
-    matchLabels:               # 4 spaces
-      app: myapp               # 6 spaces
-  replicas: 4                  # 2 spaces
-  template:                     # 2 spaces
-    metadata:                   # 4 spaces
-      labels:                   # 6 spaces
-        app: myapp              # 8 spaces
-    spec:                       # 4 spaces
-      containers:               # 6 spaces
-      - name: myapp             # 8 spaces (list item under containers)
-        image: mekumar/n8n:6   # 10 spaces
-        ports:                  # 10 spaces
-        - containerPort: 8080   # 12 spaces (list item under ports)
+spec:                         
+  selector:                   
+    matchLabels:              
+      app: myapp              
+  replicas: 4                 
+  template:                     
+    metadata:                   
+      labels:                   
+        app: myapp              
+    spec:                       
+      containers:               
+      - name: myapp             
+        image: mekumar/n8n:6   
+        ports:                  
+        - containerPort: 8080   
